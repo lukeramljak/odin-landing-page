@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechFusion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <header>
     <span>TechFusion</span>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
   </header>
   <body>
-    <section>
+    <section class="hero">
       <div>
         <h1>Welcome to TechFusion</h1>
         <p>
@@ -24,7 +33,7 @@
       </div>
       <img src="./assets/hero.jpg" alt="A code editor on silver MacBook" />
     </section>
-    <section>
+    <section class="information">
       <h2>Our Services</h2>
       <div>
         <div>
@@ -57,21 +66,23 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="quote">
       <blockquote>
         "TechFusion's work exceeded my expectations. Their attention to detail
         and commitment to delivering quality is unmatched." - Sarah Johnson,
         Digital Solutions Inc.
       </blockquote>
     </section>
-    <section>
+    <section class="cta">
       <div>
-        <span>Ready to elevate your digital game?</span>
-        <p>
-          Sign up for our newsletter and stay updated on the latest trends in
-          digital transformation.
-        </p>
-        <button>Sign Up</button>
+        <div>
+          <span>Ready to elevate your digital game?</span>
+          <p>
+            Sign up for our newsletter and stay updated on the latest trends in
+            digital transformation.
+          </p>
+          <button>Sign Up</button>
+        </div>
       </div>
     </section>
   </body>
