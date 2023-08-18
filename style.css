@@ -1,0 +1,87 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+}
+
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+/* custom css */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, .hero, footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+header {
+    & span {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+nav {
+    & ul {
+        list-style: none;
+        display: flex;
+    }
+    & a {
+        text-decoration: none;
+        color: #e5e7eb;
+    }
+}
+
+.hero {
+    & h1 {
+        font-size: 3rem;
+    }
+    & p {
+        color: #e5e7eb;
+    }
+}
+
+.information {
+    & h2 {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #1f2937;
+    }
+}
+
+.quote {
+    background-color: #e5e7eb;
+    & blockquote {
+        font-size: 2rem;
+        font-weight: 300;
+        font-style: italic;
+    }
+}
+
+.cta {
+    background-color: #3882f6;
+    & button {
+        background-color: #3882f6;
+    }
+}
