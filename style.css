@@ -60,9 +60,13 @@ nav {
         text-decoration: none;
         color: #e5e7eb;
     }
+    & a:hover {
+        color: #3882f6;
+    }
 }
 
 button {
+    cursor: pointer;
     color: #e5e7eb;
     font-weight: 700;
     border: 2px solid #e5e7eb;
@@ -70,6 +74,11 @@ button {
     border-radius: 8px;
     padding: 5px 35px;
     width: 130px;
+}
+
+button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
 }
 
 .hero {
