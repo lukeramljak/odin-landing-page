@@ -96,7 +96,6 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
     & h2 {
         font-size: 2rem;
         font-weight: 900;
@@ -106,7 +105,10 @@ button {
         display: flex;
         gap: 2rem;
         & div {
-            min-width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
         }
     }
     & img {
@@ -132,7 +134,7 @@ button {
     height: 250px;
     align-items: center;
     justify-content: center;
-    & .cta {
+    & .cta-banner {
         display: flex;
         align-items: center;
         justify-content: space-between;
