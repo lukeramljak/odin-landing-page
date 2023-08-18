@@ -74,11 +74,14 @@ button {
 
 .hero {
     align-items: center;
+    justify-content: center;
+    gap: 3rem;
     padding: 5rem 12rem;
     & div {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        max-width: 500px;
     }
     & h1 {
         font-size: 3rem;
@@ -91,7 +94,7 @@ button {
         border: none;
     }
     & img {
-        max-width: 50%;
+        max-width: 600px;
     }
 }
 
@@ -131,12 +134,14 @@ button {
 
 .quote {
     align-items: center;
+    justify-content: center;
     background-color: #e5e7eb;
     padding: 5rem 18rem;
     & blockquote {
         font-size: 2rem;
         font-weight: 300;
         font-style: italic;
+        max-width: 800px;
     }
 }
 
