@@ -30,8 +30,10 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-section {
+section, footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header, .hero, footer {
@@ -82,8 +84,6 @@ button:hover {
 }
 
 .hero {
-    align-items: center;
-    justify-content: center;
     gap: 3rem;
     padding: 5rem 12rem;
     & div {
@@ -108,8 +108,6 @@ button:hover {
 }
 
 .information {
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     padding: 5rem 12rem;
     gap: 2rem;
@@ -142,8 +140,6 @@ button:hover {
 }
 
 .quote {
-    align-items: center;
-    justify-content: center;
     background-color: #e5e7eb;
     padding: 5rem 18rem;
     & p {
@@ -164,8 +160,6 @@ button:hover {
 
 .cta-section {
     color:#f9faf8;
-    align-items: center;
-    justify-content: center;
     padding: 5rem 12rem;
     & .cta-banner {
         display: flex;
@@ -185,8 +179,5 @@ button:hover {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 2rem 0;
 }
