@@ -30,12 +30,24 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+header, .hero, section {
+    padding: 1rem 10rem;
+}
+
+section {
+    display: flex;
+    height: 450px;
+}
+
 header, .hero, footer {
     color: #f9faf8;
     background-color: #1f2937;
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     & span {
         font-size: 1.5rem;
         font-weight: bold;
@@ -46,6 +58,7 @@ nav {
     & ul {
         list-style: none;
         display: flex;
+        gap: 1.5rem;
     }
     & a {
         text-decoration: none;
@@ -54,23 +67,45 @@ nav {
 }
 
 .hero {
+    align-items: center;
     & h1 {
         font-size: 3rem;
     }
     & p {
         color: #e5e7eb;
     }
+    & img {
+        max-width: 50%;
+    }
 }
 
 .information {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
     & h2 {
         font-size: 2rem;
         font-weight: 900;
         color: #1f2937;
     }
+    & .images {
+        display: flex;
+        gap: 2rem;
+        & div {
+            min-width: 350px;
+        }
+    }
+    & img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
+    }
 }
 
 .quote {
+    align-items: center;
     background-color: #e5e7eb;
     & blockquote {
         font-size: 2rem;
@@ -79,9 +114,26 @@ nav {
     }
 }
 
-.cta {
-    background-color: #3882f6;
-    & button {
+.cta-section {
+    height: 250px;
+    align-items: center;
+    & .cta {
+        display: flex;
+        padding: 2rem 8rem;
         background-color: #3882f6;
-    }
+        & button {
+            color: #e5e7eb;
+            border-style: none;
+            border-color: #e5e7eb;
+            background-color: #3882f6;
+        }
+}
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
 }
