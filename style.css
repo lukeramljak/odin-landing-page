@@ -78,8 +78,14 @@ button {
 
 .hero {
     align-items: center;
+    & div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
     & h1 {
         font-size: 3rem;
+        line-height: 1.2;
     }
     & p {
         color: #e5e7eb;
