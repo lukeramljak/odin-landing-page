@@ -146,11 +146,19 @@ button:hover {
     justify-content: center;
     background-color: #e5e7eb;
     padding: 5rem 18rem;
-    & blockquote {
+    & p {
         font-size: 2rem;
         font-weight: 300;
         font-style: italic;
         max-width: 800px;
+    }
+    & footer {
+        color: #000000;
+        font-size: 1.25rem;
+        font-weight: 700;
+        background-color: transparent;
+        padding: 0;
+        justify-content: end;
     }
 }
 
@@ -163,12 +171,16 @@ button:hover {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 2rem 6rem;
+        padding: 2.5rem 6rem;
         border-radius: 8px;
         background-color: #3882f6; 
         & .cta-text {
             max-width: 70%;
         }
+    }
+    & span {
+        font-size: 1.25rem;
+        font-weight: 700;
     }
 }
 
