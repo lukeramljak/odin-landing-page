@@ -30,13 +30,8 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-header, section {
-    padding: 1rem 10rem;
-}
-
 section {
     display: flex;
-    height: 450px;
 }
 
 header, .hero, footer {
@@ -48,6 +43,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 12rem;
     & span {
         font-size: 1.5rem;
         font-weight: bold;
@@ -78,6 +74,7 @@ button {
 
 .hero {
     align-items: center;
+    padding: 5rem 12rem;
     & div {
         display: flex;
         flex-direction: column;
@@ -102,6 +99,7 @@ button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 5rem 12rem;
     gap: 2rem;
     & h2 {
         font-size: 2rem;
@@ -134,6 +132,7 @@ button {
 .quote {
     align-items: center;
     background-color: #e5e7eb;
+    padding: 5rem 18rem;
     & blockquote {
         font-size: 2rem;
         font-weight: 300;
@@ -143,14 +142,14 @@ button {
 
 .cta-section {
     color:#f9faf8;
-    height: 300px;
     align-items: center;
     justify-content: center;
+    padding: 5rem 12rem;
     & .cta-banner {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 2rem 8rem;
+        padding: 2rem 6rem;
         border-radius: 8px;
         background-color: #3882f6; 
         & .cta-text {
