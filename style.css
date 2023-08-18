@@ -66,6 +66,16 @@ nav {
     }
 }
 
+button {
+    color: #e5e7eb;
+    font-weight: 700;
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 5px 35px;
+    width: 130px;
+}
+
 .hero {
     align-items: center;
     & h1 {
@@ -73,6 +83,9 @@ nav {
     }
     & p {
         color: #e5e7eb;
+    }
+    & button {
+        border: none;
     }
     & img {
         max-width: 50%;
@@ -115,21 +128,22 @@ nav {
 }
 
 .cta-section {
+    color:#f9faf8;
     height: 250px;
     align-items: center;
+    justify-content: center;
     & .cta {
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 2rem 8rem;
-        background-color: #3882f6;
-        & button {
-            color: #e5e7eb;
-            border-style: none;
-            border-color: #e5e7eb;
-            background-color: #3882f6;
+        border-radius: 8px;
+        background-color: #3882f6; 
+        & .cta-text {
+            max-width: 70%;
         }
+    }
 }
-}
-
 
 footer {
     display: flex;
